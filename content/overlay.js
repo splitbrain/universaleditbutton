@@ -96,9 +96,10 @@ var universaleditbtn = {
                                        " : " + elements[i].title  +
                                        " : " + elements[i].href);
 
-                 if ( ('application/wiki' == elements[i].type ||
+                 if ( 'edit' == elements[i].rel || (
+                      ('application/wiki' == elements[i].type ||
                        'application/x-wiki' == elements[i].type) &&
-                       'alternate' == elements[i].rel ) {
+                       'alternate' == elements[i].rel ) ) {
                      hasMatch = elements[i];
 
                      // Exit for loop after matching the first one.
