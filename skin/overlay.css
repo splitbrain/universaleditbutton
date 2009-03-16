@@ -1,0 +1,23 @@
+/* universal edit buttons
+ *
+ * Because we weren't supplied with a hover image, we play some
+ * trickery with margins and a resized image to give the button a
+ * raised effect while taking up the same amount of room.
+ */
+
+#universaleditbtn-icon {
+    -moz-appearance: none
+    min-width: 0px;
+
+    margin-right: 1px !important;
+    margin-left: 1px !important;
+    cursor: pointer;
+}
+
+#universaleditbtn-icon[select] {
+    list-style-image: url("chrome://universaleditbtn/skin/wiki-18.png");
+}
+
+#universaleditbtn-icon[select]:hover {
+    list-style-image: url("chrome://universaleditbtn/skin/wiki-18_hover.png");
+}

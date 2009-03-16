@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://universaleditbtn/skin/overlay.css" type="text/css"?>
+
+<overlay id="UniversalEditBtn_Overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://universaleditbtn/content/overlay.js"/>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbaritem id="urlbar-container">
+            <textbox id="urlbar">
+                <hbox id="urlbar-icons">
+                    <image id="universaleditbtn-icon" />
+                </hbox>
+            </textbox>
+        </toolbaritem>
+    </toolbarpalette>
+</overlay>
