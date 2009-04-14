@@ -16,6 +16,5 @@
         <em:maxVersion>3.*</em:maxVersion>
       </Description>
     </em:targetApplication>
-    <em:updateURL>https://addons.wikihow.com/univedit-update.xml</em:updateURL>
   </Description>
 </RDF>
