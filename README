@@ -1,0 +1,13 @@
+Using this extension, an icon will appear in the address bar (similar to the
+RSS auto-discovery button) when you visit a wiki website that allows you to
+edit the page.
+
+This works on popular sites like Wikipedia, AboutUs.com, wikiHow and Wikia
+and also on most of the major wikis including MediaWiki, DokuWiki, TWiki,
+PHPWiki, MoinMoin and many more.
+
+The extension can easily be installed from
+https://addons.mozilla.org/en-US/firefox/addon/7804/
+
+If you like to build it yourself, the build.sh script creates the extension
+for you.
