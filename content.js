@@ -10,6 +10,7 @@
     if (element && element.href) {
         var title = 'Edit this page';
         if (element.title) title = element.title;
-        chrome.extension.sendMessage({title: title, href: element.href});
+        var rt = browser ? browser.runtime : chrome.extension;
+        rt.sendMessage({title: title, href: element.href});
     }
 })();

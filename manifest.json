@@ -14,11 +14,11 @@
   "page_action": {
     "default_icon": {
       "16": "skin/wiki-16.png",
+      "19": "skin/wiki-19.png",
       "24": "skin/wiki-24.png",
       "32": "skin/wiki-32.png",
-      "48": "skin/wiki-48.png",
-      "96": "skin/wiki-96.png",
-      "128": "skin/wiki-128.png"
+      "38": "skin/wiki-38.png",
+      "48": "skin/wiki-48.png"
     },
     "default_title": ""
   },
